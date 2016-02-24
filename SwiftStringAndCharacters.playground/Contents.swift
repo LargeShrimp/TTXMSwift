@@ -32,7 +32,7 @@ newString3.append(newcharacter)
 //使用endIndex属性可以获取最后一个Character的后一个位置的索引。因此，endIndex属性不能作为一个字符串的有效下标
 let greeting = "Guten Tag!"
 greeting[greeting.startIndex]
-greeting[greeting.endIndex.predecessorgit ]
+greeting[greeting.endIndex.predecessor()]
 greeting[greeting.startIndex.advancedBy(4)]
 
 //插入删除
